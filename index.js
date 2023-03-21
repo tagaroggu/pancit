@@ -40,6 +40,8 @@ function computed(callback) {
 
     const get = () => s();
     get.stop = () => { d() };
+
+    return get;
 }
 
 export { signal, effect, computed };
