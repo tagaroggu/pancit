@@ -34,3 +34,16 @@ count(4) // Does not log 16
 squared.stop() // Value will stop updating
 
 ```
+
+## Todos:
+- [ ] Rewrite in TypeScript
+- [ ] Rename `signal`, `effect`, and `computed` to `useSignal`, `useEffect`, and `useComputed`
+- [ ] Add scoping
+    - [ ] Add `useScope` and `getScope`
+    - [ ] Add support for destroying signals and effects based on destruction of scope
+- [ ] Add utilities
+    - [ ] Add `toReadonly`
+    - [ ] Add `isSignal`
+- [ ] Possibly add reactive objects
+    - [ ] Add `toSignal`, `toSignals`
+    - [ ] Add signal destructuring
